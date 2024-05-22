@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registro de la cancion para el concurso</h1>
+    <form action="#" name="envio_datos">
+        <h5 style="background: #c3f901;"> Datos del usuario</h5>
+        <label for="Nombres">Nombres</label>
+        <input type="text" name="nombres" id="nombres" placeholder="Ingrese sus nombres"><br/>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password"id="password"placeholder="Ingrese tu password">
+        <br>
+
+        <label for="sexo"><b>Seleccione su sexo</b></label><br/>
+        <input type="radio" name="sexo" id="sexo" value="masculino">Masculino<br/>
+        <input type="radio" name="sexo" id="sexo" value="femenino">Femenino<br/>
+    <br>
+    <label for="pais">Pais</label>
+        <select name="pais" id="pais">
+            <option value="peru">Peru</option>
+            <option value="colombia">Colombia</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Chile">Chile</option>
+        </select>
+        <br>
+
+        <h5 style="background: #c3f901;">Datos de la Musica</h5><br>
+        <label for="tipo_musica"><b>Seleccione el tipo de Musica</b></label> <br>
+        <input type="checkbox" name="Musica" value="Clasica">Clasica <br>
+        <input type="checkbox" name="Musica" value="pop">Pop<br>
+        <input type="checkbox" name="Musica" value="rock">Rock <br>
+        
+        <label for="archivo"><b> Seleccione la cancion a enviar</b></label> <br>
+        <input type="file" name="archivo">
+        <br>
+        <label for="mensaje">Ingrese un mensaje</label><br>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+        <br>
+
+        <input type="submit" value="enviar">
+        <input type="reset" value="Limpiar">
+        <button type="button" onclick="alert('Hola mundo')">Saludo</button>
+    </form>
+</body>
+</html>
